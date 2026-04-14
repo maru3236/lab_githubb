@@ -27,6 +27,22 @@ export default function Configuracao() {
           </pre>
         </div>
 
+        {/* Card 1.1 */}
+        <div className="bg-gray-800/60 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-gray-700">
+          <h2 className="text-lg font-semibold mb-3 text-blue-400">
+            Reiniciar o Visual Studio
+          </h2>
+          <p className="text-gray-300 mb-3">
+            Lembre-se de após a instalação fechar o Visual Studio e abrir novamente
+          </p>
+          <p className="text-zinc-600 dark:text-zinc-400">
+            No Terminal do VS Code verifique se a versão do github foi instalada
+          </p>
+          <pre className="bg-black/70 p-4 rounded-lg text-green-400 text-sm overflow-x-auto">
+         git --version
+          </pre>
+        </div>
+
         {/* Card 2 */}
         <div className="bg-gray-800/60 backdrop-blur-md rounded-2xl p-6 shadow-lg border border-gray-700">
           <h2 className="text-lg font-semibold mb-3 text-purple-400">
